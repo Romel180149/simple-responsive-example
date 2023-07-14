@@ -8,7 +8,7 @@
 }
 .row{
     display: flex;
-    height: 100px;
+    height: auto;
     gap: 5px;
     margin-bottom: 10px;
 }
@@ -21,4 +21,8 @@
 .square-collage{
 display: grid;
 grid-template-columns: repeat(2,1fr);
+}
+/* medium devices */
+@media screen  and(min-width:576px) and (max-width:992px){
+    
 }
